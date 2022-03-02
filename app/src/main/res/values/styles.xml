@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="textStyle">
+        <item name="android:fontFamily">@font/bungee_hairline</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">?attr/colorSecondary</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

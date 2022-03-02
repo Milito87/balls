@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">balls</string>
+    <string name="easy">EASY</string>
+    <string name="normal">NORMAL</string>
+    <string name="hard">HARD</string>
+    <string name="are_you_ready">¿ARE YOU READY?</string>
+    <string name="game_over">GAME OVER</string>
+    <string name="balls_numbers">BALLS NUMBERS</string>
+    <string name="purple_balls">PURPLE BALLS</string>
+    <string name="green_balls">GREEN BALLS</string>
+    <string name="red_balls">RED BALLS</string>
+    <string name="result">RESULT</string>
+    <string name="blue">BLUE</string>
+    <string name="yellow">YELLOW</string>
+    <string name="green">GREEN</string>
+    <string name="red">RED</string>
+    <string name="retry">RETRY</string>
+</resources>
