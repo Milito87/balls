@@ -179,24 +179,22 @@ public class GraphicView extends View {
                 check1 =true;
             }
             switch(random1){
-                case 1:  c.drawCircle(posX1, posY1, RADIO, ball1); Log.v("xyzyx" , " 1 ball blue");break;
-                case 2:  c.drawCircle(posX1, posY1, RADIO, ball1); c.drawCircle(posX2, posY2, RADIO, ball2);Log.v("xyzyx" , " 2 ball blue");break;
-                case 3:  c.drawCircle(posX1, posY1, RADIO, ball1); c.drawCircle(posX2, posY2, RADIO, ball2);c.drawCircle(posX3, posY3, RADIO, ball3);Log.v("xyzyx" , " 3 ball blue");break;
+                case 1:  c.drawCircle(posX1, posY1, RADIO, ball1);break;
+                case 2:  c.drawCircle(posX1, posY1, RADIO, ball1); c.drawCircle(posX2, posY2, RADIO, ball2);break;
+                case 3:  c.drawCircle(posX1, posY1, RADIO, ball1); c.drawCircle(posX2, posY2, RADIO, ball2);c.drawCircle(posX3, posY3, RADIO, ball3);break;
             }
             MainActivity.numBlue = random1;
-            Log.v("xyzyx" , MainActivity.numBlue+" 1");
             /*------YELLOW-------*/
             if(!check2) {
                 random2 = 1 + new Random().nextInt(3);
                 check2 = true;
             }
             switch(random2){
-                case 1:  c.drawCircle(posX4, posY4, RADIO, ball4); Log.v("xyzyx" , " 1 ball yellow");break;
-                case 2:  c.drawCircle(posX4, posY4, RADIO, ball4); c.drawCircle(posX5, posY5, RADIO, ball5);Log.v("xyzyx" , " 2 ball yellow");break;
-                case 3:  c.drawCircle(posX4, posY4, RADIO, ball4); c.drawCircle(posX5, posY5, RADIO, ball5);c.drawCircle(posX6, posY6, RADIO, ball6);Log.v("xyzyx" , " 3 ball yellow");break;
+                case 1:  c.drawCircle(posX4, posY4, RADIO, ball4);break;
+                case 2:  c.drawCircle(posX4, posY4, RADIO, ball4); c.drawCircle(posX5, posY5, RADIO, ball5);break;
+                case 3:  c.drawCircle(posX4, posY4, RADIO, ball4); c.drawCircle(posX5, posY5, RADIO, ball5);c.drawCircle(posX6, posY6, RADIO, ball6);break;
             }
             MainActivity.numYellow = random2;
-            Log.v("xyzyx" , MainActivity.numYellow+" 1");
         }
         else if(MainActivity.mode == 2){
 
@@ -212,7 +210,6 @@ public class GraphicView extends View {
                 case 3:  c.drawCircle(posX1, posY1, RADIO, ball1); c.drawCircle(posX2, posY2, RADIO, ball2);c.drawCircle(posX3, posY3, RADIO, ball3);break;
             }
             MainActivity.numBlue = random1;
-            Log.v("xyzyx" , MainActivity.numBlue+" 2");
             /*------YELLOW-------*/
             if(!check2) {
                 random2 = 1 + new Random().nextInt(2);
@@ -224,7 +221,6 @@ public class GraphicView extends View {
                 case 3:  c.drawCircle(posX4, posY4, RADIO, ball4); c.drawCircle(posX5, posY5, RADIO, ball5);c.drawCircle(posX6, posY6, RADIO, ball6);break;
             }
             MainActivity.numYellow = random2;
-            Log.v("xyzyx" , MainActivity.numYellow+" 2");
             /*-------GREEN---------*/
             if(!check3) {
                 random3 = 1 + new Random().nextInt(2);
@@ -236,7 +232,6 @@ public class GraphicView extends View {
                 case 3:  c.drawCircle(posX7, posY7, RADIO, ball7); c.drawCircle(posX8, posY8, RADIO, ball8);c.drawCircle(posX9, posY9, RADIO, ball9);break;
             }
             MainActivity.numGreen = random3;
-            Log.v("xyzyx" , MainActivity.numGreen+" 2");
         }
         else if(MainActivity.mode == 3){
 
@@ -251,7 +246,6 @@ public class GraphicView extends View {
                 case 3:  c.drawCircle(posX1, posY1, RADIO, ball1); c.drawCircle(posX2, posY2, RADIO, ball2);c.drawCircle(posX3, posY3, RADIO, ball3);break;
             }
             MainActivity.numBlue = random1;
-            Log.v("xyzyx" , MainActivity.numBlue+" 3");
             /*------YELLOW-------*/
             if(!check2) {
                 random2 = 1 + new Random().nextInt(2);
@@ -263,7 +257,6 @@ public class GraphicView extends View {
                 case 3:  c.drawCircle(posX4, posY4, RADIO, ball4); c.drawCircle(posX5, posY5, RADIO, ball5);c.drawCircle(posX6, posY6, RADIO, ball6);break;
             }
             MainActivity.numYellow = random2;
-            Log.v("xyzyx" , MainActivity.numYellow+" 3");
             /*-------GREEN---------*/
             if(!check3) {
                 random3 = 1 + new Random().nextInt(2);
@@ -275,7 +268,6 @@ public class GraphicView extends View {
                 case 3:  c.drawCircle(posX7, posY7, RADIO, ball7); c.drawCircle(posX8, posY8, RADIO, ball8);c.drawCircle(posX9, posY9, RADIO, ball9);break;
             }
             MainActivity.numGreen = random3;
-            Log.v("xyzyx" , MainActivity.numGreen+" 3");
             /*-------RED----------*/
             if(!check4) {
                 random4 = 1 + new Random().nextInt(2);
@@ -287,7 +279,6 @@ public class GraphicView extends View {
                 case 3:  c.drawCircle(posX10, posY10, RADIO, ball10); c.drawCircle(posX11, posY11, RADIO, ball11);c.drawCircle(posX12, posY12, RADIO, ball12);break;
             }
             MainActivity.numRed = random4;
-            Log.v("xyzyx" , MainActivity.numRed+" 3");
         }
 
     }

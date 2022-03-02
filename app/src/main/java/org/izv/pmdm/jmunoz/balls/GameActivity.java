@@ -1,18 +1,17 @@
 package org.izv.pmdm.jmunoz.balls;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.widget.TextView;
+import android.view.View;
+import android.view.animation.Animation;
 
-import java.util.LinkedList;
-import java.util.List;
 
-public class GameActivity extends AppCompatActivity {
+public class GameActivity extends AppCompatActivity{
 
     private MediaPlayer sound;
+    private GraphicView graphicView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,11 +21,8 @@ public class GameActivity extends AppCompatActivity {
         sound = MediaPlayer.create(this, R.raw.tetris);
         sound.start();
 
-    Hilo h = new Hilo();
-    h.start();
-
-
-
+        Hilo h = new Hilo();
+        h.start();
     }
 
     class Hilo extends Thread{
