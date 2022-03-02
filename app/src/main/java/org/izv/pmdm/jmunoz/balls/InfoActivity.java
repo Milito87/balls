@@ -30,7 +30,7 @@ public class InfoActivity extends AppCompatActivity {
         if(MainActivity.win){
             tvResult.setText("YOU WIN !!!");
             tvResult.setOnClickListener(v -> {
-                
+
             });
         }
         else{

@@ -49,9 +49,6 @@ public class ChooseActivity extends AppCompatActivity {
         tvGreen = findViewById(R.id.tvBallGreen);
         tvRed = findViewById(R.id.tvBallRed);
 
-        etBlue.setText(MainActivity.numBlue+"");
-        etYellow.setText(MainActivity.numYellow+"");
-
         if (MainActivity.mode == 1) {
             etGreen.setVisibility(View.INVISIBLE);
             etRed.setVisibility(View.INVISIBLE);
@@ -67,26 +64,6 @@ public class ChooseActivity extends AppCompatActivity {
             etRed.setVisibility(View.VISIBLE);
             tvGreen.setVisibility(View.VISIBLE);
             tvRed.setVisibility(View.VISIBLE);
-        }
-
-    }
-
-    private void numBalls(){
-
-        if(MainActivity.mode == 1){
-           MainActivity.numBlue = 1;
-            MainActivity.numYellow = 1;
-        }
-        else if(MainActivity.mode == 2){
-            MainActivity.numBlue = 1;
-            MainActivity.numYellow = 1;
-            MainActivity.numGreen = 1;
-        }
-        else if(MainActivity.mode == 3){
-            MainActivity.numBlue = 1;
-            MainActivity.numYellow = 1;
-            MainActivity.numGreen = 1;
-            MainActivity.numRed = 1;
         }
 
     }
